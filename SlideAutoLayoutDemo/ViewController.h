@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *btmBtn1;
+@property (weak, nonatomic) IBOutlet UIButton *btmBtn2;
+
+@property (weak, nonatomic) IBOutlet UIView *containerView;
+@property (weak, nonatomic) IBOutlet UIButton *slideBtn;
+- (IBAction)slideBtnAction:(id)sender;
 
 @end
 
